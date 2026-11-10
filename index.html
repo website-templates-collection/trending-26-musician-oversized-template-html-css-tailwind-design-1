@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..900&family=Space+Grotesk:wght@100..900&family=Syne:wght@100..900&display=swap" rel="stylesheet"/>
+<link href="./tailwind.min.css" rel="stylesheet"/>
+</head><body class="bg-background text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md"><div class="h-20 w-full px-gutter md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Valen Voss Monogram Wordmark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAsR-SASGZu5nNrDWxCFHJDVLqi937FHqJc0DRGNv8fV5MJxIXv1n0S5CXA0dzMxg_jh35spPQdfxK-S9BoE-JyPQ-boq-RDhcLl0c6AUPcCkxqERDf2ZMBEA23wZ7X2A_bUvAl0WjMbTeE-FrZI6wkjaysI9PTZmXkFxfheaZYc_Pe6pJzY7HaKwHkYbUC3myY3p1dID4wDySdzj5fdesgT2rZVH0HnywOuQRa_ee2"/><div class="hidden xl:flex flex-col"><span class="font-label-code text-label-code text-on-surface uppercase tracking-widest">Valen Voss</span><span class="font-label-code text-label-code text-on-surface-variant uppercase">Sonic Composition & Synthesis</span></div></div><nav class="hidden lg:flex items-center gap-space-xs font-label-code text-label-code uppercase tracking-wider" data-active-classes="text-primary-container bg-surface-container-high"><a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="discography" href="#">Discography</a><a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="live-tour" href="#">Live Tour</a><a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="sound-archive" href="#">Sound Archive</a><a aria-current="page" class="px-space-sm py-space-xs transition-colors text-primary-container bg-surface-container-high" data-path="biography" href="#">Biography</a><a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-path="press" href="#">Press</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="hidden sm:flex items-center gap-space-sm bg-surface-container-lowest px-space-sm py-space-xs"><span class="font-label-code text-label-code text-on-surface-variant uppercase">LOC</span><span class="font-label-code text-label-code text-on-surface uppercase">BERLIN / REYKJAVÍK</span></div><div class="flex items-center gap-space-xs bg-surface-container-high px-space-sm py-space-xs"><span class="font-label-code text-label-code text-on-surface-variant uppercase">128 BPM</span><div class="flex items-end gap-[2px] h-3 px-1"><span class="w-[2px] h-full bg-primary-container animate-pulse"></span><span class="w-[2px] h-2 bg-primary-container"></span><span class="w-[2px] h-3 bg-primary-container animate-pulse"></span><span class="w-[2px] h-1 bg-primary-container"></span></div><button class="font-label-code text-label-code uppercase text-on-surface hover:text-primary-container transition-colors ml-1" type="button">Sound On</button></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkinM-M-aITNaz1BgDQYsNyNzQ_U5p4_T6F7NkZ34-dVYs6jyI5aHQ1o68X8Wl-M0wGL-th5nAcfWIdbz-bAbRSUmPh-t88ti579el4nguDYrYctMaa5Iibu2siW8m-iiVVBKj-2uFrd9EINO_IECH58tknBjmle3RkHWLEWJFQI7QafZ02_jLOD1oB48V1cWFMWo9dEc41a1u_B3VQ06Ts3snhogVNq8G9NWhAE-V"/></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- SECTION 1: EDITORIAL MANIFESTO HERO -->
+<section class="relative w-full px-gutter md:px-margin pt-12 pb-24 overflow-hidden bg-background">
+<!-- Subtle architectural background metadata watermark -->
+<div class="absolute right-0 top-6 select-none pointer-events-none opacity-5 text-right font-headline-xl text-headline-xl uppercase text-on-surface leading-none -mr-16">
+      FREQUENCY<br/>STRUCTURE<br/>MONOLITH
+    </div>
+<!-- Top micro-ticker line -->
+<div class="flex items-center justify-between py-space-sm mb-16 bg-surface-container-lowest px-4">
+<div class="flex items-center gap-space-sm">
+<span class="w-2 h-2 bg-primary-container inline-block"></span>
+<span class="font-label-code text-label-code uppercase tracking-widest text-primary-container">MANIFESTO & BIOGRAPHICAL ARCHIVE</span>
+</div>
+<div class="font-label-code text-label-code uppercase tracking-wider text-on-surface-variant hidden md:block">
+        DOC-REF: VV-BIO-2025 // REV.09
+      </div>
+<div class="font-label-code text-label-code uppercase tracking-wider text-on-surface">
+        BERLIN · REYKJAVÍK
+      </div>
+</div>
+<!-- Monumental Statement Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-end">
+<div class="lg:col-span-9 flex flex-col">
+<div class="font-label-code text-label-code uppercase tracking-widest text-on-surface-variant mb-4">
+          [ AXIOM 01 : SONIC CORPOREALITY ]
+        </div>
+<h1 class="font-display-hero text-headline-xl md:text-display-hero tracking-tighter uppercase text-primary leading-none select-none">
+          SOUND IS NOT <br class="hidden sm:inline"/>
+<span class="italic text-on-surface-variant hover:text-primary transition-colors duration-200">ENTERTAINMENT.</span><br/>
+          IT IS <span class="bg-primary-container text-on-primary-fixed px-3 inline-block transform -rotate-1">ARCHITECTURE</span><br/>
+          IN TIME.
+        </h1>
+</div>
+<!-- Asymmetric Editorial Sideblock -->
+<div class="lg:col-span-3 flex flex-col justify-between h-full space-y-8 bg-surface-container-lowest p-6">
+<div class="space-y-3">
+<span class="font-label-code text-label-code uppercase text-primary-container tracking-wider block">DISCIPLINE MATRIX</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            A collision of prepared acoustic Steinway grand pianos, modular sub-frequency generators, and spatial quadraphonic dispersion. Valen Voss dismantles the boundary separating European chamber music from monolithic industrial techno.
+          </p>
+</div>
+<div class="pt-6 space-y-2">
+<div class="flex justify-between font-label-code text-label-code text-on-surface-variant">
+<span>MODALITY</span>
+<span class="text-on-surface">MICROTONAL / SUB-BASS</span>
+</div>
+<div class="flex justify-between font-label-code text-label-code text-on-surface-variant">
+<span>RESIDENCY</span>
+<span class="text-on-surface">FUNKHAUS NALEPASSTRASSE</span>
+</div>
+<div class="flex justify-between font-label-code text-label-code text-on-surface-variant">
+<span>SYSTEM</span>
+<span class="text-primary-container">48-CH D&B SOUNDSCAPE</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Massive Horizontal Kinetic Bar -->
+<div class="w-full mt-20 pt-4 pb-2 bg-surface-container-high px-4 flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-space-md">
+<span class="font-label-numeral text-label-numeral text-primary-container leading-none">8Hz—24kHz</span>
+<span class="font-label-code text-label-code uppercase tracking-widest text-on-surface-variant">UNFILTERED ACOUSTIC PRESSURE SPECTRUM</span>
+</div>
+<div class="flex items-center gap-6 font-label-code text-label-code uppercase text-on-surface-variant">
+<span>KRACHWERK ARCHIVE</span>
+<span>•</span>
+<span>SYMPHONY COM. NO. 4</span>
+<span>•</span>
+<span class="text-primary-container animate-pulse">RECORDING ACTIVE</span>
+</div>
+</div>
+</section>
+<!-- SECTION 2: PORTRAIT & MANIFESTO DICHOTOMY -->
+<section class="w-full px-gutter md:px-margin py-20 bg-surface-container-low">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Monolithic Artist Portrait Card -->
+<div class="lg:col-span-5 relative group">
+<div class="w-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full aspect-[4/5] object-cover grayscale contrast-125 brightness-90 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" data-alt="Monochrome extreme close-up dramatic portrait of composer Valen Voss in a brutalist concrete acoustic hall in Berlin, stark side lighting with intense chiaroscuro contrast, sharp eyes, minimalist high-fashion black garment, architectural background shadows, fine film grain, moody avant-garde editorial photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnv0D95HYkZOmaCPZ49JEbCjjBVhb6Xv1jtRitwO7nAfUonSZ-u8UQdh1IirUBfBKStXThVMK04fYr6HH45SDQI1yvnLt4t7fvnxMVHBC2Cjv213y_I6MuMjcN7T9TOgyblx8zamdvhtGf0EzJdDcMe9AOR6HgTD2ityzTsRLHYNLDGxHt7XeHgtuArzO_CfVLeEYxT4mUhz6DXDoY8gSJRVF7UQiO2J4vu7c-eNpt"/>
+</div>
+<div class="bg-surface-container-lowest p-6 flex flex-col justify-between">
+<div class="flex justify-between items-center font-label-code text-label-code text-on-surface-variant uppercase">
+<span>FIGURE 01: V. VOSS</span>
+<span class="text-primary-container">STUDIO BERLIN, 2025</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface mt-2">
+            Archival capture during the recording of <em>'Tectonic Chants'</em> with the Icelandic National Symphony.
+          </p>
+</div>
+</div>
+<!-- Narrative Manifesto Text Column -->
+<div class="lg:col-span-7 flex flex-col justify-between space-y-12">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 bg-surface-container px-3 py-1 font-label-code text-label-code uppercase text-primary-container">
+<span>CRITICAL POSITION // 01</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl uppercase text-primary tracking-tight leading-none">
+            DISMANTLING THE CONSERVATORY WALLS
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed font-light">
+            Trained as a classical virtuoso at the Hanns Eisler School of Music in Berlin, Voss abandoned orthodox concert decorum following an epiphany inside the cavernous concrete belly of Kraftwerk Berlin in 2014. 
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Rather than treating the concert grand piano as a museum artifact, Voss treats the instrument as a colossal percussion resonator. By placing custom contact transducers directly on the iron frame, dampening the copper bass strings with lead blocks, and routing acoustic resonance through arrays of custom analog Eurorack filters, Voss discovered an unheard continuum: the point where Chopin dissolves into raw seismic vibration.
+          </p>
+</div>
+<!-- Metric Data Points Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-8 bg-surface-container p-6">
+<div>
+<span class="font-label-numeral text-label-numeral text-primary block leading-none mb-1">14</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">STUDIO ALBUMS & EPS</span>
+</div>
+<div>
+<span class="font-label-numeral text-label-numeral text-primary-container block leading-none mb-1">07</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">FEATURE FILM SCORES</span>
+</div>
+<div>
+<span class="font-label-numeral text-label-numeral text-secondary-container block leading-none mb-1">320k</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">ANALOG VINYL PRESSED</span>
+</div>
+</div>
+<!-- Pull Statement -->
+<div class="p-6 bg-surface-container-highest">
+<p class="font-headline-md text-headline-md text-on-surface italic font-serif leading-snug">
+            “There is no dissonance—only acoustic pressure seeking its natural spatial equilibrium.”
+          </p>
+<span class="font-label-code text-label-code uppercase text-primary-container block mt-3">— VALEN VOSS, NOTES ON SYNTHESIS</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: STAGGERED CHRONOLOGY / TIMELINE -->
+<section class="w-full px-gutter md:px-margin py-28 bg-background">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-20">
+<div>
+<span class="font-label-code text-label-code text-primary-container uppercase tracking-widest block mb-2">// BIOGRAPHICAL MILESTONES</span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl uppercase text-primary tracking-tight">
+          CHRONOLOGY OF DISSOLUTION
+        </h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm mt-4 md:mt-0">
+        Key tectonic shifts in the artist's conceptual methodology, live architecture, and acoustic experiments.
+      </p>
+</div>
+<!-- Chronology Rows -->
+<div class="flex flex-col space-y-12">
+<!-- MILESTONE 1: 2015 -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 bg-surface-container-lowest p-8 transition-colors duration-200 hover:bg-surface-container-low">
+<div class="md:col-span-3 flex flex-col justify-between">
+<span class="font-display-hero text-headline-xl md:text-display-hero text-surface-variant leading-none select-none">2015</span>
+<span class="font-label-code text-label-code text-primary-container uppercase mt-2">DEBUT RELEASE // KW-001</span>
+</div>
+<div class="md:col-span-6 flex flex-col justify-center space-y-2">
+<h3 class="font-headline-md text-headline-md uppercase text-primary">KRACHWERK MONOLOGUES</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Recorded in an abandoned steel manufacturing basin outside Leipzig. Using only a decaying Blüthner upright piano and an EDP Wasp analog synthesizer, this seminal self-released debut laid bare Voss's aesthetic manifesto.
+          </p>
+</div>
+<div class="md:col-span-3 flex flex-col justify-between items-start md:items-end pt-4 md:pt-0">
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">FORMAT: DBL-12" GATEFOLD</span>
+<span class="font-label-code text-label-code uppercase text-on-surface bg-surface-container px-3 py-1 mt-4 md:mt-0">CATALOG: COMPLETE SOLD OUT</span>
+</div>
+</div>
+<!-- MILESTONE 2: 2019 -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 bg-surface-container-lowest p-8 transition-colors duration-200 hover:bg-surface-container-low">
+<div class="md:col-span-3 flex flex-col justify-between">
+<span class="font-display-hero text-headline-xl md:text-display-hero text-surface-variant leading-none select-none">2019</span>
+<span class="font-label-code text-label-code text-primary-container uppercase mt-2">WORLD TOUR & PHILHARMONIE</span>
+</div>
+<div class="md:col-span-6 flex flex-col justify-center space-y-2">
+<h3 class="font-headline-md text-headline-md uppercase text-primary">SUB-STRATA: LIVE QUADRAPHONICS</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            A 34-date international tour staging immersive darkness concerts. Voss performed blindfolded with audience seating arranged radially around a bespoke four-quadrant modular rack, culminating in a sold-out staging at Elbphilharmonie Hamburg.
+          </p>
+</div>
+<div class="md:col-span-3 flex flex-col justify-between items-start md:items-end pt-4 md:pt-0">
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">ATTENDANCE: 42,000 SOULS</span>
+<span class="font-label-code text-label-code uppercase text-primary-container bg-surface-container px-3 py-1 mt-4 md:mt-0">PRESERVATION: TAPE ARCHIVE</span>
+</div>
+</div>
+<!-- MILESTONE 3: 2022 -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 bg-surface-container-lowest p-8 transition-colors duration-200 hover:bg-surface-container-low">
+<div class="md:col-span-3 flex flex-col justify-between">
+<span class="font-display-hero text-headline-xl md:text-display-hero text-surface-variant leading-none select-none">2022</span>
+<span class="font-label-code text-label-code text-primary-container uppercase mt-2">CINEMATIC COMMISSIONS</span>
+</div>
+<div class="md:col-span-6 flex flex-col justify-center space-y-2">
+<h3 class="font-headline-md text-headline-md uppercase text-primary">THE OBSIDIAN MERIDIAN (ORIGINAL SCORE)</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Commissioned by A24 for the dystopian speculative thriller by director Sofia Lindqvist. Voss utilized exclusively hydrophone recordings captured under Vatnajökull glacier in Iceland, harmonized with a 60-piece cello choir.
+          </p>
+</div>
+<div class="md:col-span-3 flex flex-col justify-between items-start md:items-end pt-4 md:pt-0">
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">AWARD: CANNES SOUNDTRACK AWARD</span>
+<span class="font-label-code text-label-code uppercase text-on-surface bg-surface-container px-3 py-1 mt-4 md:mt-0">NOMINATION: BAFTA SOUND DESIGN</span>
+</div>
+</div>
+<!-- MILESTONE 4: 2025 -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 bg-surface-container-high p-8">
+<div class="md:col-span-3 flex flex-col justify-between">
+<span class="font-display-hero text-headline-xl md:text-display-hero text-primary-container leading-none select-none">2025</span>
+<span class="font-label-code text-label-code text-on-surface uppercase mt-2">CURRENT CYCLE // V.24</span>
+</div>
+<div class="md:col-span-6 flex flex-col justify-center space-y-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-code text-label-code uppercase tracking-wider text-primary-container">CURRENT COMMISSION</span>
+</div>
+<h3 class="font-headline-md text-headline-md uppercase text-primary">CATHEDRAL OF KINETICS</h3>
+<p class="font-body-md text-body-md text-on-surface">
+            A permanent spatialized sound sculpture inside the disused turbine hall of Kraftwerk Berlin, operating continuously via real-time seismic sensor data transmitted live from Reykjanes Peninsula, Iceland.
+          </p>
+</div>
+<div class="md:col-span-3 flex flex-col justify-between items-start md:items-end pt-4 md:pt-0">
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">DURATION: PERMANENT INSTALLATION</span>
+<button class="bg-primary text-background font-label-code text-label-code uppercase px-4 py-2 hover:bg-primary-container hover:text-on-primary-fixed transition-colors mt-4 md:mt-0">
+            VIEW BLUEPRINTS
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: MONUMENTAL CRITICAL ACCLAIM & PRESS PULL-QUOTES -->
+<section class="w-full px-gutter md:px-margin py-28 bg-surface-container-low overflow-hidden">
+<div class="flex items-center justify-between mb-16">
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 bg-secondary-container"></span>
+<span class="font-label-code text-label-code uppercase tracking-widest text-primary">CRITICAL EVALUATION & DOSSIER</span>
+</div>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">GLOBAL PRESS SYNDICATE</span>
+</div>
+<!-- Monumental Press Stack -->
+<div class="flex flex-col space-y-16">
+<!-- QUOTE 1: THE NEW YORK TIMES -->
+<div class="relative bg-surface-container-lowest p-8 md:p-14 group">
+<div class="font-label-code text-label-code uppercase tracking-widest text-primary-container mb-6 flex items-center justify-between">
+<span>THE NEW YORK TIMES</span>
+<span>CHIEF MUSIC CRITIC</span>
+</div>
+<p class="font-headline-xl text-headline-lg md:text-headline-xl uppercase text-primary leading-tight font-headline-xl tracking-tight">
+          “Voss does not merely play music; he rearranges the atmospheric pressure inside your ribcage. A harrowing, beautiful masterwork.”
+        </p>
+<div class="mt-8 flex flex-wrap items-center justify-between gap-4 font-label-code text-label-code uppercase text-on-surface-variant">
+<span>ARTICLE: THE NEW AVANT-GARDE TSUNAMI</span>
+<span>DATE: OCTOBER 2024</span>
+<span class="text-on-surface">RATING: CRITIC'S PICK</span>
+</div>
+</div>
+<!-- QUOTE 2: PITCHFORK -->
+<div class="relative bg-surface-container p-8 md:p-14 group">
+<div class="font-label-code text-label-code uppercase tracking-widest text-primary-container mb-6 flex items-center justify-between">
+<span>PITCHFORK</span>
+<span>BEST NEW MUSIC (9.4)</span>
+</div>
+<p class="font-headline-xl text-headline-lg md:text-headline-xl uppercase text-primary leading-tight font-headline-xl tracking-tight">
+          “The definitive collision of classical rigor and industrial terror. Voss is drafting the blueprint for modern instrumental music.”
+        </p>
+<div class="mt-8 flex flex-wrap items-center justify-between gap-4 font-label-code text-label-code uppercase text-on-surface-variant">
+<span>ALBUM: TECTONIC CHANTS (KW-092)</span>
+<span>REVIEWER: GRAYSON HAVER CURRIN</span>
+<span class="text-primary-container">BEST NEW REISSUE & ALBUM OF THE YEAR</span>
+</div>
+</div>
+<!-- QUOTE 3 & 4 IN TWO COLUMNS -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- RESIDENT ADVISOR -->
+<div class="bg-surface-container-lowest p-8 md:p-10 flex flex-col justify-between space-y-8">
+<div class="space-y-4">
+<span class="font-label-code text-label-code uppercase tracking-wider text-secondary-container block">RESIDENT ADVISOR // LIVE FEATURE</span>
+<p class="font-headline-md text-headline-md uppercase text-on-surface leading-snug">
+              “Stepping into a Valen Voss live show is akin to standing directly underneath the ignition chamber of a Saturn V rocket dressed in ceremonial linen.”
+            </p>
+</div>
+<div class="font-label-code text-label-code uppercase text-on-surface-variant flex justify-between">
+<span>BERLIN KRAFTWERK RESIDENCY</span>
+<span class="text-on-surface">VERIFIED WITNESS</span>
+</div>
+</div>
+<!-- THE WIRE -->
+<div class="bg-surface-container-lowest p-8 md:p-10 flex flex-col justify-between space-y-8">
+<div class="space-y-4">
+<span class="font-label-code text-label-code uppercase tracking-wider text-primary-container block">THE WIRE // ISSUE 478 COVER STORY</span>
+<p class="font-headline-md text-headline-md uppercase text-on-surface leading-snug">
+              “Voss redefines acoustic physics. The piano is liberated from three centuries of romantic neurosis into visceral kinetic architecture.”
+            </p>
+</div>
+<div class="font-label-code text-label-code uppercase text-on-surface-variant flex justify-between">
+<span>LONDON EDITORIAL</span>
+<span class="text-on-surface">LEAD ESSAY</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: SELECTED COMMISSIONS & COLLABORATIONS -->
+<section class="w-full px-gutter md:px-margin py-28 bg-background">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+<div>
+<span class="font-label-code text-label-code text-primary-container uppercase tracking-widest block mb-2">// CROSS-DISCIPLINARY INDEX</span>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl uppercase text-primary tracking-tight">
+          COLLABORATIONS & COMMISSIONS
+        </h2>
+</div>
+<div class="flex items-center gap-2 mt-4 md:mt-0 font-label-code text-label-code uppercase text-on-surface-variant">
+<span>SECTOR: COUTURE / SYMPHONY / CINEMA / DANCE</span>
+</div>
+</div>
+<!-- Commissions Grid / List -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- ITEM 1: RICK OWENS -->
+<div class="bg-surface-container-lowest p-6 flex flex-col justify-between h-96 group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex justify-between items-center mb-6">
+<span class="font-label-code text-label-code uppercase text-primary-container">RUNWAY ARCHIVE</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">PARIS, 2024</span>
+</div>
+<span class="font-label-numeral text-headline-md text-on-surface block uppercase">RICK OWENS</span>
+<span class="font-headline-md text-headline-md text-primary uppercase block mt-1">EDIFICE SS25</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-4 leading-relaxed">
+            Monumental continuous drone score composed for 18 acoustic tubas, bass flutes, and sub-octave distortion units at Palais de Tokyo.
+          </p>
+</div>
+<div class="pt-4 flex justify-between items-center font-label-code text-label-code text-on-surface-variant uppercase">
+<span>LENGTH: 22M 14S</span>
+<span class="text-primary-container group-hover:translate-x-1 transition-transform">LISTEN →</span>
+</div>
+</div>
+<!-- ITEM 2: ROYAL BALLET OF FLANDERS -->
+<div class="bg-surface-container-lowest p-6 flex flex-col justify-between h-96 group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex justify-between items-center mb-6">
+<span class="font-label-code text-label-code uppercase text-primary-container">CONTEMPORARY DANCE</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">ANTWERP, 2023</span>
+</div>
+<span class="font-label-numeral text-headline-md text-on-surface block uppercase">ROYAL BALLET</span>
+<span class="font-headline-md text-headline-md text-primary uppercase block mt-1">KINETIC CHOREA</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-4 leading-relaxed">
+            Choreographed by Sidi Larbi Cherkaoui. Live interaction between 24 dancers wearing accelerometers routing data into custom modular synthesis banks.
+          </p>
+</div>
+<div class="pt-4 flex justify-between items-center font-label-code text-label-code text-on-surface-variant uppercase">
+<span>PREMIERED: MAY 2023</span>
+<span class="text-primary-container group-hover:translate-x-1 transition-transform">LISTEN →</span>
+</div>
+</div>
+<!-- ITEM 3: BALENCIAGA RUNWAY SOUND DESIGN -->
+<div class="bg-surface-container-lowest p-6 flex flex-col justify-between h-96 group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex justify-between items-center mb-6">
+<span class="font-label-code text-label-code uppercase text-primary-container">COUTURE SOUND DESIGN</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">PARIS, 2023</span>
+</div>
+<span class="font-label-numeral text-headline-md text-on-surface block uppercase">BALENCIAGA</span>
+<span class="font-headline-md text-headline-md text-primary uppercase block mt-1">THE MUD SHOW [51ST]</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-4 leading-relaxed">
+            Seismic infrasound field recordings layered with pitch-dropped liturgical vocals, designed for massive perimeter sound-reinforcement arrays.
+          </p>
+</div>
+<div class="pt-4 flex justify-between items-center font-label-code text-label-code text-on-surface-variant uppercase">
+<span>VENUE: VILLEPINTE</span>
+<span class="text-primary-container group-hover:translate-x-1 transition-transform">LISTEN →</span>
+</div>
+</div>
+<!-- ITEM 4: ICELAND SYMPHONY ORCHESTRA -->
+<div class="bg-surface-container-lowest p-6 flex flex-col justify-between h-96 group hover:bg-surface-container-high transition-colors">
+<div>
+<div class="flex justify-between items-center mb-6">
+<span class="font-label-code text-label-code uppercase text-primary-container">ORCHESTRAL SUITE</span>
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">REYKJAVÍK, 2022</span>
+</div>
+<span class="font-label-numeral text-headline-md text-on-surface block uppercase">ICELAND SYMPHONY</span>
+<span class="font-headline-md text-headline-md text-primary uppercase block mt-1">SINFONIA LITURGICA</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-4 leading-relaxed">
+            Full 90-piece orchestral commission exploring microtonal tuning systems paired with live industrial feedback loops performed at Harpa Hall.
+          </p>
+</div>
+<div class="pt-4 flex justify-between items-center font-label-code text-label-code text-on-surface-variant uppercase">
+<span>CATALOG: HARPA-ORCH</span>
+<span class="text-primary-container group-hover:translate-x-1 transition-transform">LISTEN →</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: HIGH-RES EPK / PRESS KIT DOSSIER & ASSET DOWNLOAD MODULE -->
+<section class="w-full px-gutter md:px-margin py-28 bg-surface-container-lowest">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- EPK Left Column: Information & Accreditation -->
+<div class="lg:col-span-5 space-y-6">
+<div class="inline-flex items-center gap-2 bg-surface-container px-3 py-1 font-label-code text-label-code uppercase text-primary-container">
+<span>PRESS ASSETS & TECHNICAL RIDERS</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg md:text-headline-xl uppercase text-primary tracking-tight leading-none">
+          OFFICIAL PRESS KIT (EPK)
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Accredited journalists, concert curators, festival directors, and cultural publications may download official verified biographical dossiers, stage plots, input lists, and 300DPI monochromatic image assets.
+        </p>
+<!-- Credentials Block -->
+<div class="p-6 bg-surface-container space-y-4">
+<span class="font-label-code text-label-code uppercase text-primary-container block tracking-wider">MANAGEMENT & INQUIRIES</span>
+<div class="space-y-2 font-label-code text-label-code uppercase text-on-surface">
+<div class="flex justify-between">
+<span class="text-on-surface-variant">WORLDWIDE BOOKING</span>
+<a class="hover:text-primary-container underline" href="mailto:booking@valenvoss.com">AGENCY@VALENVOSS.COM</a>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">PRESS ACCREDITATION</span>
+<a class="hover:text-primary-container underline" href="mailto:press@valenvoss.com">PRESS@VALENVOSS.COM</a>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">FILM & SYNC</span>
+<a class="hover:text-primary-container underline" href="mailto:sync@krachwerk.com">SYNC@KRACHWERK.COM</a>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-4 pt-4">
+<button class="bg-primary-container text-on-primary-fixed font-label-code text-label-code uppercase font-bold px-6 py-4 flex items-center gap-3 hover:bg-white hover:text-black transition-colors" id="downloadAllBtn">
+<span class="material-symbols-outlined text-lg">download</span>
+            DOWNLOAD FULL PRESS BUNDLE (480 MB)
+          </button>
+</div>
+</div>
+<!-- EPK Right Column: Asset Inventory Matrix -->
+<div class="lg:col-span-7 flex flex-col space-y-3">
+<span class="font-label-code text-label-code uppercase tracking-widest text-on-surface-variant mb-2">INDIVIDUAL ASSET VAULT</span>
+<!-- ASSET ROW 1: BIO DOCUMENT -->
+<div class="flex items-center justify-between p-5 bg-surface-container hover:bg-surface-container-high transition-colors group">
+<div class="flex items-center gap-4">
+<span class="font-label-numeral text-headline-md text-surface-variant group-hover:text-primary-container">01</span>
+<div>
+<span class="font-headline-md text-headline-md text-primary block leading-none">BIOGRAPHICAL DOSSIER [EN/DE/FR]</span>
+<span class="font-label-code text-label-code text-on-surface-variant uppercase mt-1 block">FULL 2025 BIOGRAPHY, 500-WORD SHORT BIO, DISCOGRAPHY REZENSION // PDF</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-code text-label-code text-on-surface-variant hidden sm:inline">2.4 MB</span>
+<button class="bg-surface-container-lowest text-on-surface font-label-code text-label-code uppercase px-4 py-2 hover:bg-primary-container hover:text-on-primary-fixed transition-colors">
+              PULL
+            </button>
+</div>
+</div>
+<!-- ASSET ROW 2: TECHNICAL RIDER & STAGE PLOT -->
+<div class="flex items-center justify-between p-5 bg-surface-container hover:bg-surface-container-high transition-colors group">
+<div class="flex items-center gap-4">
+<span class="font-label-numeral text-headline-md text-surface-variant group-hover:text-primary-container">02</span>
+<div>
+<span class="font-headline-md text-headline-md text-primary block leading-none">TECHNICAL RIDER & STAGE PLOT</span>
+<span class="font-label-code text-label-code text-on-surface-variant uppercase mt-1 block">4-CHANNEL QUADRAPHONIC PA SPECS, INPUT LIST, POWER REQUIREMENTS // PDF</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-code text-label-code text-on-surface-variant hidden sm:inline">4.8 MB</span>
+<button class="bg-surface-container-lowest text-on-surface font-label-code text-label-code uppercase px-4 py-2 hover:bg-primary-container hover:text-on-primary-fixed transition-colors">
+              PULL
+            </button>
+</div>
+</div>
+<!-- ASSET ROW 3: HIGH-RES PHOTOGRAPHY PACK -->
+<div class="flex items-center justify-between p-5 bg-surface-container hover:bg-surface-container-high transition-colors group">
+<div class="flex items-center gap-4">
+<span class="font-label-numeral text-headline-md text-surface-variant group-hover:text-primary-container">03</span>
+<div>
+<span class="font-headline-md text-headline-md text-primary block leading-none">HIGH-RESOLUTION PHOTO PACK (300 DPI)</span>
+<span class="font-label-code text-label-code text-on-surface-variant uppercase mt-1 block">18 MONOCHROME PRESS PRINTS, PHOTO CREDIT: ELENA KRAUS // ZIP / TIFF</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-code text-label-code text-on-surface-variant hidden sm:inline">340 MB</span>
+<button class="bg-surface-container-lowest text-on-surface font-label-code text-label-code uppercase px-4 py-2 hover:bg-primary-container hover:text-on-primary-fixed transition-colors">
+              PULL
+            </button>
+</div>
+</div>
+<!-- ASSET ROW 4: LOGOMARK & BRAND IDENTITY VECTOR KIT -->
+<div class="flex items-center justify-between p-5 bg-surface-container hover:bg-surface-container-high transition-colors group">
+<div class="flex items-center gap-4">
+<span class="font-label-numeral text-headline-md text-surface-variant group-hover:text-primary-container">04</span>
+<div>
+<span class="font-headline-md text-headline-md text-primary block leading-none">BRAND IDENTITY & MONOGRAM VECTOR SUITE</span>
+<span class="font-label-code text-label-code text-on-surface-variant uppercase mt-1 block">OFFICIAL VALEN VOSS WORDMARK, KRACHWERK RECORDINGS IMPRINT // SVG / EPS</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-code text-label-code text-on-surface-variant hidden sm:inline">12 MB</span>
+<button class="bg-surface-container-lowest text-on-surface font-label-code text-label-code uppercase px-4 py-2 hover:bg-primary-container hover:text-on-primary-fixed transition-colors">
+              PULL
+            </button>
+</div>
+</div>
+<!-- ASSET ROW 5: CRITICAL REVIEWS & TEARSHEETS -->
+<div class="flex items-center justify-between p-5 bg-surface-container hover:bg-surface-container-high transition-colors group">
+<div class="flex items-center gap-4">
+<span class="font-label-numeral text-headline-md text-surface-variant group-hover:text-primary-container">05</span>
+<div>
+<span class="font-headline-md text-headline-md text-primary block leading-none">PRESS TEARSHEETS & INTERVIEW REPRINTS</span>
+<span class="font-label-code text-label-code text-on-surface-variant uppercase mt-1 block">THE WIRE COVER STORY, NYT ESSAY, THE QUIETUS INTERVIEWS // PDF</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<span class="font-label-code text-label-code text-on-surface-variant hidden sm:inline">18 MB</span>
+<button class="bg-surface-container-lowest text-on-surface font-label-code text-label-code uppercase px-4 py-2 hover:bg-primary-container hover:text-on-primary-fixed transition-colors">
+              PULL
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: PERSISTENT FLOATING AUDIO DOSSIER PLAYER -->
+<aside class="sticky bottom-0 left-0 right-0 z-40 bg-surface-container-lowest px-gutter md:px-margin py-3 shadow-2xl">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4">
+<!-- Track Meta -->
+<div class="flex items-center gap-4 w-full md:w-auto">
+<button class="w-10 h-10 bg-primary-container text-on-primary-fixed flex items-center justify-center font-bold hover:bg-primary transition-colors shrink-0" id="audioToggleBtn">
+<span class="material-symbols-outlined" id="playIcon">play_arrow</span>
+</button>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md text-primary truncate">TECTONIC CHANTS (EXCERPT)</span>
+<span class="bg-surface-container-highest px-2 py-0.5 font-label-code text-label-code text-primary-container shrink-0">KW-092</span>
+</div>
+<span class="font-label-code text-label-code text-on-surface-variant uppercase block">VALEN VOSS & ICELAND SYMPHONY ORCHESTRA</span>
+</div>
+</div>
+<!-- Interactive Waveform Strip -->
+<div class="flex items-center gap-2 flex-grow max-w-xl w-full px-4">
+<span class="font-label-code text-label-code text-on-surface-variant shrink-0" id="timeDisplay">03:42</span>
+<div class="flex items-center gap-[3px] h-6 flex-grow overflow-hidden cursor-pointer" id="waveformBar">
+<!-- Dynamically filled segments -->
+<div class="w-1 bg-primary-container h-2"></div>
+<div class="w-1 bg-primary-container h-4"></div>
+<div class="w-1 bg-primary-container h-6"></div>
+<div class="w-1 bg-primary-container h-3"></div>
+<div class="w-1 bg-primary-container h-5"></div>
+<div class="w-1 bg-primary-container h-6"></div>
+<div class="w-1 bg-primary-container h-4"></div>
+<div class="w-1 bg-primary-container h-2"></div>
+<div class="w-1 bg-primary-container h-5"></div>
+<div class="w-1 bg-primary-container h-6"></div>
+<div class="w-1 bg-primary-container h-3"></div>
+<div class="w-1 bg-surface-variant h-5"></div>
+<div class="w-1 bg-surface-variant h-6"></div>
+<div class="w-1 bg-surface-variant h-4"></div>
+<div class="w-1 bg-surface-variant h-2"></div>
+<div class="w-1 bg-surface-variant h-3"></div>
+<div class="w-1 bg-surface-variant h-6"></div>
+<div class="w-1 bg-surface-variant h-5"></div>
+<div class="w-1 bg-surface-variant h-4"></div>
+<div class="w-1 bg-surface-variant h-2"></div>
+<div class="w-1 bg-surface-variant h-6"></div>
+<div class="w-1 bg-surface-variant h-5"></div>
+<div class="w-1 bg-surface-variant h-3"></div>
+<div class="w-1 bg-surface-variant h-4"></div>
+<div class="w-1 bg-surface-variant h-6"></div>
+<div class="w-1 bg-surface-variant h-2"></div>
+<div class="w-1 bg-surface-variant h-4"></div>
+<div class="w-1 bg-surface-variant h-5"></div>
+<div class="w-1 bg-surface-variant h-3"></div>
+<div class="w-1 bg-surface-variant h-1"></div>
+</div>
+<span class="font-label-code text-label-code text-on-surface-variant shrink-0">08:14</span>
+</div>
+<!-- Quick Actions -->
+<div class="hidden lg:flex items-center gap-4">
+<span class="font-label-code text-label-code uppercase text-on-surface-variant">FORMAT: 96kHz / 24-Bit FLAC</span>
+<a class="font-label-code text-label-code uppercase bg-surface-container px-3 py-1 text-primary hover:text-primary-container transition-colors" href="#">
+          DISCOGRAPHY →
+        </a>
+</div>
+</div>
+</aside>
+<!-- INLINE MICRO-INTERACTION SCRIPT -->
+<script>
+    (function() {
+      const playBtn = document.getElementById('audioToggleBtn');
+      const playIcon = document.getElementById('playIcon');
+      const timeDisplay = document.getElementById('timeDisplay');
+      let isPlaying = false;
+      let timer = null;
+      let seconds = 222; // 03:42
+
+      if (playBtn && playIcon) {
+        playBtn.addEventListener('click', function() {
+          isPlaying = !isPlaying;
+          if (isPlaying) {
+            playIcon.textContent = 'pause';
+            playBtn.classList.add('bg-white', 'text-black');
+            playBtn.classList.remove('bg-primary-container', 'text-on-primary-fixed');
+            timer = setInterval(function() {
+              seconds++;
+              const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+              const s = (seconds % 60).toString().padStart(2, '0');
+              if (timeDisplay) timeDisplay.textContent = m + ':' + s;
+            }, 1000);
+          } else {
+            playIcon.textContent = 'play_arrow';
+            playBtn.classList.remove('bg-white', 'text-black');
+            playBtn.classList.add('bg-primary-container', 'text-on-primary-fixed');
+            clearInterval(timer);
+          }
+        });
+      }
+
+      const dlBtn = document.getElementById('downloadAllBtn');
+      if (dlBtn) {
+        dlBtn.addEventListener('click', function() {
+          const original = dlBtn.innerHTML;
+          dlBtn.innerHTML = '<span class="material-symbols-outlined text-lg animate-spin">refresh</span> GENERATING COMPRESSED VAULT...';
+          setTimeout(function() {
+            dlBtn.innerHTML = '<span class="material-symbols-outlined text-lg">check_circle</span> ARCHIVE READY (480 MB)';
+            setTimeout(function() {
+              dlBtn.innerHTML = original;
+            }, 3000);
+          }, 1200);
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest"><div class="w-full px-gutter md:px-margin py-space-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="flex flex-col gap-space-xs"><span class="font-headline-md text-headline-md uppercase text-on-surface">Valen Voss Studio</span><div class="flex flex-wrap items-center gap-space-md font-label-code text-label-code uppercase text-on-surface-variant"><span class="text-primary-container">Archive Registry // V.24</span><span>Imprint: KRACHWERK RECORDINGS</span><span>Cat: KW-098</span></div></div><div class="flex flex-wrap items-center gap-space-lg font-label-code text-label-code uppercase text-on-surface-variant"><a class="hover:text-primary-container transition-colors" href="#">Instagram</a><a class="hover:text-primary-container transition-colors" href="#">Bandcamp</a><a class="hover:text-primary-container transition-colors" href="#">SoundCloud</a><a class="hover:text-primary-container transition-colors" href="#">Booking: agency@valenvoss.com</a></div><div class="font-label-code text-label-code text-on-surface-variant uppercase">© 2024 VALEN VOSS. ALL FREQUENCIES RESERVED.</div></div></footer></body></html>
